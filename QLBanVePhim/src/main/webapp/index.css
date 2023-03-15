@@ -1,0 +1,204 @@
+
+.search{
+    height: 42px;
+  }
+  .regist{
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .btn-register{
+    background: url(https://cinestar.com.vn/catalog/view/theme/default/images/icon-register.png) no-repeat left 1px;
+  }
+  .regist li{
+    list-style: none;
+    height: auto;
+  }
+  .regist a{
+    padding: 25px 0 23px 71px;
+    display: block;
+  }
+  #carouselExampleIndicators{
+    margin-top: 15px;
+  }
+  .film-item{
+    padding: 20px;
+    height: 420px;
+    margin: 14px 12px 14px 0;
+    background-color: rgb(241, 239, 239);
+  }
+  .phim-item{
+    padding: 20px;
+    height: auto;
+    margin: 14px 12px 14px 0;
+    background-color: rgb(241, 239, 239);
+  }
+  .film-pic, .film-txt{
+    float: left;
+    width: 50%;
+  }
+  
+  .phim-pic{
+    float: left;
+    width: 30%;
+  }
+  .phim-txt{
+    float: left;
+    width: 70%;
+  }
+  .film-pic img, .phim-pic img{
+    width:100%;
+    height:auto;
+
+  }
+  .film-txt, .phim-txt{
+    padding:0 0 0 20px;
+    height: auto;
+    position: relative;
+  }
+  .film-pic {
+    height:auto;
+
+  }
+  .film-txt p{
+    font-size: 15px;
+    color:antiquewhite;
+    max-height: 160px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: black;
+  }
+
+  .phim-txt p{
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: black;
+  }
+  .film-btn{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
+  .content-page{
+    margin-top: 50px;
+  }
+  .ticket{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: .25rem;
+    width: 56px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .ticket span{
+    
+    font-size: .8125rem;
+  }
+  .outline-dark a{
+    color: #12263f;
+    border-color: #12263f;
+  }
+  .man-hinh{
+    width: 90%;
+    height: 50px;
+    background-color: aliceblue;
+    text-align: center;
+    float:right;
+  }
+  .list-group-item{
+    text-align: center;
+    width: 100%;
+  }
+  .ghe-container{
+    padding-top: 50px;
+  }
+  .ghe{
+    height: 50px;
+    margin-left: 20px;
+    margin-bottom:10px;
+  }
+
+  .ghe a{
+    margin-right: 10px;
+    text-decoration: none;
+    color:rgb(77, 77, 77);
+  }
+  
+  .info, .bill{
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    width:100%;
+  }
+  .bill{
+    margin: 0;
+  }
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 20px;
+    padding: 50px;
+  }
+  .login-container{
+    margin-top: 50px;
+  }
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+    .h-custom {
+      height: 100%;
+    }
+  }
+  .thongbao{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .btn-thanhtoan{
+    margin: auto;
+    width: 20%;
+  }
+  .phim-container{
+    margin-top:50px;
+    margin-bottom: 25px;
+    padding: 50px;
+    background-color: rgb(226, 232, 236);
+    border-radius: 20px;
+    border:1px solid rgb(77, 77, 77);
+    box-shadow: 10px 10px 10px 5px #12263f;
+  }
+  .hang-ghe{
+  	background-color:gray;
+  	color: white;
+  	margin-bottom:10px;
+	}
+  .g{
+  	margin-right: 10px;
+  }
+  .film-btn-sua{
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+  }
+  #datepicker{
+width:180px; 
+margin: 0 20px 20px 20px;
+}
+#datepicker > span:hover{
+cursor: pointer;
+}
+  
